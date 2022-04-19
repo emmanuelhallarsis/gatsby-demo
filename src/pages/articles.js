@@ -35,7 +35,7 @@ export const data = graphql`
  {
    allNodeArticle(
      sort: {fields: created, order: ASC}
-     limit: 10
+     limit: 100
    ) {
       nodes {
         id
