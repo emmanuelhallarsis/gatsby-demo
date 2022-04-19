@@ -38,7 +38,7 @@ module.exports = {
     {
       resolve: `gatsby-source-drupal`,
       options: {
-        baseUrl: `https://dev-emman-gatsby-demo.pantheonsite.io/`,
+        baseUrl: `https://dev-emman-gatsby-demo.pantheonsite.io/`, // YOUR PANTHEON SITE
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
