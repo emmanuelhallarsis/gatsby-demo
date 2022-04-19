@@ -34,7 +34,7 @@ Articles.propTypes = {
 export const data = graphql`
  {
    allNodeArticle(
-     sort: {fields: created, order: ASC}
+     sort: {fields: changed, order: DESC}
      limit: 100
    ) {
       nodes {
